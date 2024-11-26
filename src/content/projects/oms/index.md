@@ -1,6 +1,6 @@
 ---
-title: "Order Management System (Kamioun)"
-description: "Web application monitoring tool."
+title: "Kamioun's OMS"
+description: "Order Management System web application."
 date: "Aug 31 2024"
 ---
 
