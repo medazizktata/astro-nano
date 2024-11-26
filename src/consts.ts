@@ -3,7 +3,10 @@ import type { Site, Metadata, Socials } from "@types";
 export const SITE: Site = {
   NAME: "Mohamed Aziz Ktata",
   EMAIL: "aziiizktata7@gmail.com",
+  LINKEDIN: "mohamed-aziz-ktata-45a3aa210",
+  GITHUB: "medazizktata",
   NUM_POSTS_ON_HOMEPAGE: 3,
+  NUM_EDU_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
@@ -31,10 +34,14 @@ export const PROJECTS: Metadata = {
 export const SOCIALS: Socials = [
   { 
     NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    HREF: `https://github.com/${SITE.GITHUB}`
   },
   { 
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    HREF: `https://www.linkedin.com/in/${SITE.LINKEDIN}`,
+  },
+  { 
+    NAME: "email",
+    HREF: SITE.EMAIL
   }
 ];
